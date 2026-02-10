@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-style: oblique;
+  font-size: larger;
 }
 
 h1, p {
@@ -13,12 +14,12 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #5d82fa;
+  background-color: #7393fc;
 }
 
 ul li {
   float: left;
-  border-right:1px solid #fa0303;
+  border-right:1px solid #0026ff;
 }
 
 ul li:last-child {
@@ -36,7 +37,7 @@ ul li a {
 }
 
 ul li a:hover:not(.active) {
-  background-color: #ff5252;
+  background-color: #4b1bf7;
 }
 
 ul li a.active {
